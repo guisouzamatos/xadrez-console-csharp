@@ -9,11 +9,7 @@ namespace xadrez
     {
         public static void Main(string[] args)
         {
-            Position p;
-
-            p = new Position(3, 4);
-
-            Console.WriteLine("Posição: " + p);
+            Table tab = new Table(8, 8);
 
             Console.ReadLine();
         }

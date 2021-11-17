@@ -13,7 +13,6 @@
         public override string ToString()
         {
             return (line + ", " + column);
-            Console.WriteLine("teste");
         }
     }
 }
